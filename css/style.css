@@ -10,7 +10,7 @@ body {
 header{
 display: flex;
 max-width: 1600px;
-background-color: #312424;
+background-color: #d3cfcf;
 }
 .header{
     margin: 0 auto;
