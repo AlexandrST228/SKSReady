@@ -1,0 +1,514 @@
+@import url("./ObnulenieCSS.css");
+@import url(https://fonts.googleapis.com/css?family=Tillana:regular,500,600,700,800);
+header {
+    font-family: Arial, Helvetica, sans-serif, serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif, serif;
+}
+
+header{
+display: flex;
+
+    
+}
+.header{
+    margin: 0 auto;
+    align-items: center;
+}
+.header a{
+    margin: 0 auto;
+}
+header p{
+    width: 535px;
+    height: 75px;
+    background-color: #E5E5E1;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 23px 0 0 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    
+
+    background-image: url(../img/blure.png), url(../img/phone.png);
+    background-repeat: no-repeat;
+    
+}
+
+.body__container{
+max-width: 1600px;
+margin: 0px auto;
+display: flex;
+
+justify-content: space-between;
+
+}
+.sale{
+    width: 280px;
+height: 95px;
+background-color: #E5E5E1;
+border: 2px solid black;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+align-items: center;
+margin: 2px 0 0 0;
+}
+
+
+
+.quesn_number p{ 
+    color: #FFFFFF;
+}
+
+.number{
+    display: flex;
+    text-align: center;
+    font-family: Tillana;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0 0 0px;
+
+}
+.logo{
+    margin: 50px 0 0 0;
+}
+
+.number p{
+    padding: 0px 0px 0 60px;
+}
+
+.line_qu_num{
+    width: 530px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin: 30px 0 0 0;
+}
+
+.quesn{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0 0 0;
+}
+
+.what_tele{
+    display: flex;
+    margin: 0 0 0 80px;
+}
+.whatsapp{
+display: flex;
+text-align: center;
+align-items: center;
+margin: 10px 0 0 0;
+}
+.whatsapp p {
+    padding: 0px 0 0 10px;
+}
+
+
+.telegramm{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 10px 0 0 50px;
+    }
+.telegramm p {
+        padding: 0px 0 0 10px;
+    }
+.zagolovki{
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-content: center;
+}
+h1{
+    margin: 0 auto;
+
+}
+
+.Zagolovok{
+    margin: 20px auto;
+    width: 100%;
+}    
+.zagolovki h1{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Tillana;
+    text-align: center;
+    padding: 25px 0 0 0;
+    color: #FFFFFF;
+}
+
+.zagolovki h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFD700;
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
+.proizvod{
+    margin: 0 auto;
+
+}
+
+.proizv_1{
+    display: flex;
+    margin: 30px auto;
+    width: 100%;
+}
+
+.proizv_1 img{
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid black;
+    
+}
+
+
+footer{
+    margin: 30px auto;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.quesn_number_foot p{
+    color: #FFD700;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+margin: 20px auto;
+justify-content: center;
+align-items: center;
+}
+.foot_txt{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+.foot_l{
+    background-color: #FFD700;
+    text-align: center;
+margin: 20px auto;
+justify-content: center;
+align-items: center;
+}
+.number_foot{
+text-align: center;
+margin: 20px auto;
+justify-content: center;
+align-items: center;
+
+}
+.number_foot p:first-child{
+    padding: 0 50px 0 0;
+}
+.quesn_foot{
+text-align: center;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+.protect p{
+  
+    text-align: center;
+}
+@media (max-width: 1600px)
+{
+
+}
+
+@media (max-width: 1540px)
+{
+    header p{
+        width: 435px;
+        height: 75px;
+        background-color: #E5E5E1;
+        border: 3px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 23px 0 0 0;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .proizv_1 img{
+   width: 300px;
+   height: 150px;
+        
+    }
+}
+
+@media (max-width: 1324px)
+{
+    header p{
+        width: 335px;
+        height: 75px;
+        background-color: #E5E5E1;
+        border: 3px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 23px 0 0 0;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .proizv_1 img{
+        width: 250px;
+        height: 150px;
+             
+         }
+}
+@media (max-width: 1060px)
+{
+    .body__container{
+        max-width: 900px;
+ 
+        
+        }
+}
+
+@media (max-width: 1027px)
+{
+    header p{
+        width: 305px;
+        height: 75px;
+        background-color: #E5E5E1;
+        border: 3px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 23px 0 0 0;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .proizv_1 img{
+        width: 200px;
+        height: 100px;
+             
+         }
+}
+
+@media (max-width: 868px)
+{
+    header p{
+        width: 255px;
+        height: 75px;
+        background-color: #E5E5E1;
+        border: 3px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 23px 0 0 0;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .proizv_1 img{
+        width: 150px;
+        height: 100px;
+             
+         }
+}
+
+@media (max-width: 730px)
+{
+.body__container{
+    display: block;
+}
+.number p{
+    margin: 0 auto;
+}
+.number p{
+ padding: 0;
+}
+.line_qu_num{
+    margin: 30px auto;
+}
+.what_tele{
+    margin: 20px auto;
+    justify-content: center;
+}
+header p{
+    width: 200px;
+    height: 75px;
+    background-color: #E5E5E1;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 23px 0 0 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    justify-content: none;
+    margin: 20px 40%;
+    justify-content: center;
+}
+h1{
+    width: 700px;
+}
+}
+
+
+@media (max-width: 645px)
+{
+    header p{
+        width: 185px;
+        height: 75px;
+        background-color: #E5E5E1;
+        border: 3px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 23px 0 0 0;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .proizv_1 
+    {
+        width: 500px;
+        margin: 20px auto;
+         }
+    .proizv_1 img{
+        width: 100px;
+        height: 50px;
+             
+         }
+     
+}
+
+@media (max-width: 565px)
+{
+    header p{
+        width: 155px;
+        height: 75px;
+        background-color: #E5E5E1;
+        border: 3px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 23px 0 0 0;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+        width: 90%;
+
+    }
+.line_qu_num{
+    width: 370px;
+}
+.logo{
+          
+    margin: 20px 35%;
+    
+}
+
+}
+
+@media (max-width: 500px)
+{
+    .proizv_1 
+    {
+        width: 450px;
+
+         }
+         .logo{
+          
+            margin: 20px 35%;
+            
+        }
+}
+
+@media (max-width: 465px)
+{
+    .proizv_1 
+    {
+        width: 400px;
+
+         }
+         .proizv_1 img{
+            width: 75px;
+            height: 50px;
+                 
+             }
+             header p{
+                width: 125px;
+                height: 75px;
+                background-color: #E5E5E1;
+                border: 3px solid black;
+                font-size: 15px;
+                font-weight: bold;
+                text-align: center;
+                padding: 23px 0 0 0;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+}
+
+@media (max-width: 400px)
+{
+ 
+         header p{
+            width: 110px;
+            font-size: 14px;
+        }
+        .line_qu_num{
+            width: 290px;
+        }
+.what_tele{
+    width: 100px;
+}
+
+.quesn_number p{
+    font-size: 14px;
+}
+.quesn_number_foot p{
+    font-size: 14px;
+}
+.proizv_1{
+    width: 375px;
+}
+.logo{
+    margin: 20px 25%;
+}
+}
+
+
+@media (max-width: 375px)
+{
+    .proizv_1 img{
+        width: 75px;
+        height: 50px;
+             
+         }
+         .proizv_1 
+         {
+             width: 345px;
+     
+              }
+              header p{
+                width: 105px;
+                height: 70px;
+                font-size: 14px;
+            }
+            .logo{
+          
+                margin: 20px 25%;
+                
+            }
+}
+
+@media (max-width: 320px)
+{
+
+}
