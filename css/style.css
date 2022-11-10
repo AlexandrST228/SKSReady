@@ -9,7 +9,7 @@ body {
 
 header{
 display: flex;
-
+max-width: 1600px;
     
 }
 .header{
@@ -31,20 +31,13 @@ header p{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    
 
-    background-image: url(../img/blure.png), url(../img/phone.png);
-    background-repeat: no-repeat;
-    
-}
 
 .body__container{
 max-width: 1600px;
 margin: 0px auto;
 display: flex;
-
-justify-content: space-between;
+justify-content: center;
 
 }
 .sale{
@@ -62,7 +55,7 @@ margin: 2px 0 0 0;
 
 
 .quesn_number p{ 
-    color: #FFFFFF;
+    color: black;
 }
 
 .number{
@@ -85,7 +78,7 @@ margin: 2px 0 0 0;
 .line_qu_num{
     width: 530px;
     height: 2px;
-    background-color: #FFFFFF;
+    background-color: black;
     margin: 30px 0 0 0;
 }
 
@@ -141,7 +134,7 @@ h1{
     font-family: Tillana;
     text-align: center;
     padding: 25px 0 0 0;
-    color: #FFFFFF;
+    color: black;
 }
 
 .zagolovki h2{
@@ -320,22 +313,7 @@ margin: 0 auto;
 
 @media (max-width: 730px)
 {
-.body__container{
-    display: block;
-}
-.number p{
-    margin: 0 auto;
-}
-.number p{
- padding: 0;
-}
-.line_qu_num{
-    margin: 30px auto;
-}
-.what_tele{
-    margin: 20px auto;
-    justify-content: center;
-}
+
 header p{
     width: 200px;
     height: 75px;
@@ -348,14 +326,8 @@ header p{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
-.logo{
-    justify-content: none;
-    margin: 20px 40%;
-    justify-content: center;
-}
-h1{
-    width: 700px;
-}
+
+
 }
 
 
